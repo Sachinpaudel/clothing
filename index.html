@@ -8,121 +8,137 @@
 </head>
 <body>
     <div class="main">
-        <!-- whole web starts here --> 
-
-
-
-
-
-
-
+        <!-- Navigation Bar -->
         <div class="nav">
             <div class="left-nav">
-<!-- logo -->
+                <img src="Untitled design.jpg" alt="The Paudyal's Logo" class="logo">
             </div>
             <div class="middle-nav">
-<!-- About Us
-Men
-Women
-Kids
-contact -->
+                <a href="#about-us">About Us</a>
+                <a href="#men">Men</a>
+                <a href="#women">Women</a>
+                <a href="#kids">Kids</a>
+                <a href="#contact">Contact</a>
             </div>
             <div class="right-nav">
-<!-- search -->
-<input type="search">
+                <input type="search" placeholder="Search...">
             </div>
         </div>
-        <!-- nav end here -->
+        <!-- Navigation Bar Ends -->
 
-
-
-
-
-
-         <div class="body">
-
-
-            <div class="about-us">
+        <!-- About Us Section -->
+        <div class="body">
+            <div class="about-us" id="about-us">
                 <div class="about-us-left">
-                    <!-- write about The paudyal's and what kind of company is this -->
+                    <h1>Welcome to The Paudyal's</h1>
+                    <p>We are a family-owned company dedicated to providing high-quality clothing for men, women, and kids. Our mission is to bring style and comfort to your everyday life.</p>
+                    <button onclick="window.location.href='#blog'">Learn More About Sachin Dada</button>
                 </div>
                 <div class="about-us-right">
-                    <!-- image of founder(aka sachin paudel dada) and little a more info button that take user to the blog of sachin dada -->
+                    <img src="433447003_909246610886030_2752233435933868413_n-removebg-preview.png" alt="Sachin Paudel Dada">
                 </div>
             </div>
-            <!-- about us ends here -->
+            <!-- About Us Ends -->
 
-
-
-            <div class="men">
-                <div class="image">
-                    <!-- adidas (a wear of adidas with a text called adidas and a button which take user to the collection of adidas clothes) -->
-                </div>
-                <div class="image">
-                    <!-- LV -->
-                </div>
-                <div class="image">
-                    <!-- puma -->
-                </div>
-                <div class="image">
-                    <!-- nike -->
-                </div>
-            </div>
-
-
-            <div class="Women">
-                <div class="image">
-                    <!-- adidas (a wear of adidas with a text called adidas and a button which take user to the collection of adidas clothes) -->
-                </div>
-                <div class="image">
-                    <!-- LV -->
-                </div>
-                <div class="image">
-                    <!-- puma -->
-                </div>
-                <div class="image">
-                    <!-- nike -->
+            <!-- Men's Section -->
+            <div class="men" id="men">
+                <h2>Men's Collection</h2>
+                <div class="image-grid">
+                    <div class="image">
+                        <img src="download.jpg" alt="Adidas Men">
+                        <p>Adidas</p>
+                        <button onclick="window.location.href='#adidas-men'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="LV Men">
+                        <p>Louis Vuitton</p>
+                        <button onclick="window.location.href='#lv-men'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="Puma Men">
+                        <p>Puma</p>
+                        <button onclick="window.location.href='#puma-men'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="Nike Men">
+                        <p>Nike</p>
+                        <button onclick="window.location.href='#nike-men'">Shop Now</button>
+                    </div>
                 </div>
             </div>
+            <!-- Men's Section Ends -->
 
-<div class="review">
-    <!-- from dave -->
-</div>
+            <!-- Women's Section -->
+            <div class="women" id="women">
+                <h2>Women's Collection</h2>
+                <div class="image-grid">
+                    <div class="image">
+                        <img src="download.jpg" alt="Adidas Women">
+                        <p>Adidas</p>
+                        <button onclick="window.location.href='#adidas-women'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="LV Women">
+                        <p>Louis Vuitton</p>
+                        <button onclick="window.location.href='#lv-women'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="Puma Women">
+                        <p>Puma</p>
+                        <button onclick="window.location.href='#puma-women'">Shop Now</button>
+                    </div>
+                    <div class="image">
+                        <img src="download.jpg" alt="Nike Women">
+                        <p>Nike</p>
+                        <button onclick="window.location.href='#nike-women'">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Women's Section Ends -->
 
+            <!-- Review Section -->
+            <div class="review">
+                <h2>What Our Customers Say</h2>
+                <p>"The Paudyal's has the best collection of clothes! Highly recommended!" - Dave</p>
+            </div>
+            <!-- Review Section Ends -->
 
+            <!-- Contact Section -->
+            <div class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Address" required>
+                    <input type="tel" placeholder="Your Phone Number" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+            <!-- Contact Section Ends -->
 
-<div class="contact">
-    <div class="name"></div>
-    <div class="address"></div>
-    <div class="phone-no"></div>
-    <div class="email"></div>
-    <div class="comment"></div>
-    <div class="submit"></div>
-    <div class="reset"></div>
-</div>
+            <!-- Social Media Section -->
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+            <!-- Social Media Section Ends -->
 
+            <!-- Copyright Section -->
+            <div class="copyright">
+                <p>&copy; 2023 The Paudyal's. All rights reserved.</p>
+            </div>
+            <!-- Copyright Section Ends -->
 
-<div class="social-media">
-    <!-- facebook
-    insta 
-    x
-    linkin -->
-
-</div>
-
-<div class="copyright">
-  <!-- own by the paudyals -->
-</div>
-
-<div>
-    <!-- coffee with me  -->
-</div>
-
-         </div>
-
-
+            <!-- Coffee Section -->
+            <div class="coffee">
+                <p>Buy me a coffee ☕</p>
+            </div>
+        </div>
     </div>
-    <!-- html ends here -->
     <script src="script.js"></script>
 </body>
 </html>
